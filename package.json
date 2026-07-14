@@ -1,0 +1,8 @@
+{
+  "name": "yaml-linter",
+  "version": "1.0.0",
+  "description": "A small, zero-dependency YAML sanity linter for CI.",
+  "bin": { "yaml-linter": "src/index.js" },
+  "scripts": { "lint": "node src/index.js" },
+  "license": "MIT"
+}
